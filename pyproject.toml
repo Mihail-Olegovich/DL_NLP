@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "DL_NLP"
+version = "0.1.0"
+description = "Курс по обработке естественного языка и глубокому обучению"
+authors = ["Mikhail Kulyaskin <mihail.ru02@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4.0"
+numpy = "^1.24.0"
+pandas = "^2.0.0"
+scikit-learn = "^1.2.0"
+matplotlib = "^3.7.0"
+corus = "^0.10.0"
+wget = "^3.2"
+tqdm = "^4.67.1"
+nltk = "^3.9.1"
+pymystem3 = "^0.2.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+black = "^23.3.0"
+isort = "^5.12.0"
+flake8 = "^6.0.0"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api" 
