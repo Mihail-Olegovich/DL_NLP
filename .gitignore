@@ -35,3 +35,5 @@ desktop.ini
 /data/
 
 HW_1/lenta-ru-news.csv.gz
+HW_2/ruwikiruscorpora_upos_skipgram_300_2_2018.vec.gz
+HW_2/navec_news_v1_1B_250K_300d_100q.tar
