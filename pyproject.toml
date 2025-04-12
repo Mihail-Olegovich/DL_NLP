@@ -17,6 +17,10 @@ wget = "^3.2"
 tqdm = "^4.67.1"
 nltk = "^3.9.1"
 pymystem3 = "^0.2.0"
+gensim = "^4.3.3"
+navec = "^0.10.0"
+pymorphy2 = "^0.9.1"
+natasha = "^1.6.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.3.1"
